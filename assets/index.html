@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- here helmet will do stuff for you -->
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimal-ui, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no"/>
+    <link type="text/css" rel="stylesheet" href="assets/styles.css"></link>
+    <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="http://10.0.2.15/rap.plugin.js?projectId=2"></script>
+  </head>
+  <body>
+    <div id="app" class="page-group"></div>
+    <script type="text/javascript">
+      window.RAP.setPrefix("/mockjsdata/");
+      console.log(window.RAP, "333", window.RAP.getPrefix());
+    </script>
+    <script src="lib.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
