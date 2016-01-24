@@ -43,14 +43,7 @@ html,body {
 .massge { position: relative;float: left;width:640px;margin-left: 20px; }
 .massge>div{position: absolute;}
 /*.massge .headimg>img{ width:70px;height:70px;margin-top: 6px; }*/
-.massge .headimg{ width:70px;height:70px;margin-top: 6px; background: transparent url(img/header-icon.png) 0 0 no-repeat; background-size: cover; display:inline-block;}
-.massge .headimg.head1{background-position: 0px 0px;}
-.massge .headimg.head2{background-position: -70px 0px;}
-.massge .headimg.head3{background-position: -140px 0px;}
-.massge .headimg.head4{background-position: -210px 0px;}
-.massge .headimg.head5{background-position: -280px 0px;}
-.massge .headimg.head6{background-position: -350px 0px;}
-.massge .headimg.head7{background-position: -420px 0px;}
+.massge .headimg{ width:70px;height:70px;margin-top: 6px; background: url(/assets/img/2tnGjRR.png) no-repeat}
 .massge .mname{ font-size:22px;color:#737373;left:90px; }
 .massge .mcontent{ margin: 37px 0 0 90px; }
 .mcontent .mcla{padding: 10px;border: 1px solid #dadada;max-width: 400px;left:20px;background-color: white;margin-left: 13px;}
