@@ -11,7 +11,7 @@ module.exports = {
   context: path.join(rootDir, "app"),
   entry:{
     app:"./app-dev"
-    // lib: ["react", "react-dom", "react-router", "history"]
+    // lib: ["utils/SetViewPort.js","utils/jquery.js", "utils/preloadjs", "utils/soundjs", "utils/TweenMax"]
   },
   output:{
     path: path.join(rootDir, "build"),
@@ -28,7 +28,7 @@ module.exports = {
   plugins:[
     new Clean(['build'], rootDir),
     new webpack.optimize.OccurenceOrderPlugin(),
-  //   new webpack.optimize.CommonsChunkPlugin('lib', 'lib.js'),
+    // new webpack.optimize.CommonsChunkPlugin('lib', 'lib.js'),
   //   // new webpack.optimize.UglifyJsPlugin({warnings: false, minimize: true, sourceMap: false}),
     new ExtractTextPlugin("assets/styles.css"), //提取CSS. http://npm.taobao.org/package/extract-text-webpack-plugin
     new HtmlWebpackPlugin({

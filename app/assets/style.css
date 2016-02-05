@@ -43,7 +43,7 @@ html,body {
 .massge { position: relative;float: left;width:640px;margin-left: 20px; }
 .massge>div{position: absolute;}
 /*.massge .headimg>img{ width:70px;height:70px;margin-top: 6px; }*/
-.massge .headimg{ width:70px;height:70px;margin-top: 6px; background: transparent url(/assets/img/2tnGjRR.png) 0 0 no-repeat; background-size: cover; display:inline-block;}
+.massge .headimg{ width:70px;height:70px;margin-top: 6px; background: transparent url(img/header-icon.png) 0 0 no-repeat; background-size: cover; display:inline-block;}
 .massge .headimg.head1{background-position: 0px 0px;}
 .massge .headimg.head2{background-position: -70px 0px;}
 .massge .headimg.head3{background-position: -140px 0px;}
@@ -57,6 +57,7 @@ html,body {
 .mcontent .jb{position: absolute;top:11px;}
 
 .massge .redpick{ left:90px;top:40px; }
+.massge .redpick div{position: absolute;color: white;width: 269px;left: 105px;top: 25px;}
 #sanlianfa img{width: 34px; height: 34px; margin: 0 0 0 6px;}
 
 /*马化腾红包提示*/
@@ -84,6 +85,8 @@ html,body {
 #hb2{ transform: scale(0.5); -webkit-transform: scale(0.5); opacity: 0;}
 /*#hb1Open{ transform: scale(0.5); -webkit-transform: scale(0.5); opacity: 0;}*/
 
+.dakaiHB{position: absolute; top:0px; background: #fff;height: 100%; line-height: normal;}
+.dakaiHB .dakai-container{background: url(img/h.png) no-repeat center; text-align: center;}
 
 #btn1 { width:100px;height: 100px;margin:-413px 0 0 -290px; }
 #btn2 { width:180px;height: 180px;margin:72px 0 0 -90px; }

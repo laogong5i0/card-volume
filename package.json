@@ -4,7 +4,7 @@
   "description": "",
   "main": "app/index.js",
   "scripts": {
-    "start": "node ./server/bin/www",
+    "start": "node server/bin/www",
     "dev": "webpack --config webpack/webpack.config.dev.js | webpack-dev-server --port 8181 --config webpack/webpack.config.dev.js --hot --history-api-fallback --progress --colors --inline --content-base ./build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
